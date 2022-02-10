@@ -15,9 +15,15 @@ console.log(enemyNames[3]);
 
 var fight = function(enemyName) {
     while (playerHealth > 0 && enemyHealth > 0) {
+
+
+        alert("Welcome to Robot Gladiators!")
+
+        
       // ask player if they'd like to fight or run
       var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
   
+
       // if player picks "skip" confirm and then stop the loop
       if (promptFight === "skip" || promptFight === "SKIP") {
         // confirm player wants to skip
